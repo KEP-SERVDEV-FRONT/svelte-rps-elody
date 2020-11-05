@@ -1,7 +1,7 @@
 <script>
   /**
-   * State → Render → View → Dispatch
-   * Dispatch → Action → Reduce → State
+   * 데이터의 흐름
+   * State → View → Action → Reduce → State
    */
   import { onMount } from "svelte";
   import { state } from "../store/store";
